@@ -1,0 +1,13 @@
+[flake8]
+max-line-length=140
+exclude=
+    .venv
+per-file-ignores = __init__.py:F401
+ignore-init-module-imports = true
+ignore=
+    W503,
+    E203,
+    E266,
+    ; W503,   ; line break occurred before a binary operator. Ref: https://www.flake8rules.com/rules/W503.html
+    ; E203,   ; whitespace before ':'. Ref: https://www.flake8rules.com/rules/E203.html
+    ; E266,   ; too many leading '#' for block comment. Ref: https://www.flake8rules.com/rules/E266.html

@@ -1,0 +1,15 @@
+__pycache__
+.DS_Store
+__pycache__/
+secrets/
+.trunk
+.hadolint.yaml
+.markdownlint.yaml
+venv
+.venv/
+script/
+.python-version
+.hypothesis
+*local
+*local.py
+.env
